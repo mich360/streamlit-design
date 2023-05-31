@@ -50,6 +50,7 @@ with st.container():
         )
         st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
+        st.write('右カラム')
 #         st_lottie(lottie_coding, height=300, key="coding")  
 
  # ---- PROJECTS ----
