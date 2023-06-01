@@ -46,13 +46,6 @@ with st.container():
         st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
         st.write('右カラム、アニメーションをここに製作中')
-        ###
-
-
-
-
-        ###
-
 import streamlit.components.v1 as components
 
 # LottieファイルのURL
@@ -91,7 +84,7 @@ html_code = f"""
 </script>
 """
 
-components.html(html_code, height=400)
+components.html(html_code, height=800)
 
 
 
