@@ -93,7 +93,7 @@ with right_column:
         """
     )  
     # Lottieアニメーションを表示
-    components.html(html_code, height=400)
+    components.html(html_code, height=600)
 
 # components.html(html_code, height=800)
 
