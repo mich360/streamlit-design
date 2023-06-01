@@ -46,6 +46,12 @@ with st.container():
         st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
         st.write('右カラム、アニメーションをここに製作中')
+        ###
+
+
+
+
+        ###
 
 import streamlit.components.v1 as components
 
@@ -53,8 +59,24 @@ import streamlit.components.v1 as components
 lottie_url = "https://assets7.lottiefiles.com/packages/lf20_bP3BLu.json"
 
 # HTMLコードを生成して表示
+# html_code = f"""
+# <div id="lottie-container"></div>
+# <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
+# <script>
+#     var animationData = {json.dumps(lottie_data)};
+#     var container = document.getElementById('lottie-container');
+#     var anim = lottie.loadAnimation({{
+#         container: container,
+#         renderer: 'svg',
+#         loop: true,
+#         autoplay: true,
+#         animationData: animationData
+#     }});
+# </script>
+# """
+# HTMLコードを生成して表示（縮小表示）
 html_code = f"""
-<div id="lottie-container"></div>
+<div id="lottie-container" style="transform: scale(0.5);"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
 <script>
     var animationData = {json.dumps(lottie_data)};
