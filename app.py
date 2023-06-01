@@ -54,7 +54,7 @@ with st.container():
         st.write('右カラム、アニメーションをここに製作中')
 
 
-from IPython.display import HTML
+
 
 # LottieファイルのURL
 lottie_url = "https://assets7.lottiefiles.com/packages/lf20_bP3BLu.json"
@@ -80,7 +80,7 @@ html_code = f'''
     </script>
 '''
 
-HTML(html_code)
+
 
 
 
