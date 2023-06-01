@@ -70,7 +70,7 @@ import streamlit.components.v1 as components
 # """
 # HTMLコードを生成して表示（縮小表示）
 html_code = f"""
-<div id="lottie-container" style="transform: scale(0.5);"></div>
+<div id="lottie-container" style="transform: scale(0.7);"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
 <script>
     var animationData = {json.dumps(lottie_data)};
@@ -93,7 +93,7 @@ with right_column:
         """
     )  
     # Lottieアニメーションを表示
-    components.html(html_code, height=600)
+    components.html(html_code, height=300)
 
 # components.html(html_code, height=800)
 
