@@ -159,5 +159,5 @@ with st.container():
     with right_column:
         st.empty()
 st.write("##")     
-st.warning("[ページCode >](https://github.com/mich360/streamlit-design.git)")
+st.write("[ページCode >](https://github.com/mich360/streamlit-design.git)")
 st.warning("[前のページ >](https://canape2020.stars.ne.jp/python/)")
