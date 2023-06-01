@@ -69,7 +69,7 @@ html_code = f"""
 </script>
 """
 
-components.html(html_code, height=400)
+components.html(html_code, height=200)
 
 
 
