@@ -69,3 +69,4 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))  
     with image_column:
+        st.image(Image.open("images/mail
