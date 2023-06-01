@@ -130,7 +130,8 @@ with st.container():
             Webサイトに
             Webサイトに問い合わせフォームを追加したいです。
             以下では、無料サービス「Form Submit」を使用して、
-            Streamlitアプリに問い合わせフォームを実装する方法を説明します。
+            Streamlitアプリに問い合わせフォームを実装する方法
+            解説ありがとう。
             """
         )
         st.markdown("[こちら Video...](https://youtu.be/FOULV9Xij_8)")
