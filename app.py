@@ -49,8 +49,8 @@ with st.container():
 import streamlit.components.v1 as components
 
 # LottieファイルのURL
-lottie_url = "https://assets7.lottiefiles.com/packages/lf20_bP3BLu.json"
-##
+# lottie_url = "https://assets7.lottiefiles.com/packages/lf20_bP3BLu.json"
+
 
 # HTMLコードを生成して表示
 # html_code = f"""
