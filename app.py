@@ -85,17 +85,13 @@ html_code = f"""
 </script>
 """
 with right_column:
-    st.subheader("アニメーションとStreamlitをインテグレーションする")
+    st.subheader("アニメーション")
     st.write(
         """
-        StreamlitでLottieファイルを使用する方法を学びましょう！
-        アニメーションはWebアプリをより魅力的で楽しいものにします。
-        Lottie Filesはそれを行う最も簡単な方法です。
-        このチュートリアルでは、その方法を正確に説明しています。
+         lottiefiles.comで今回は「cat」を検索し選ぶと、Lottie Animation UR　からコピーして
+         lottie_url =　"この部分に貼り付ける"
         """
-    )
-    st.markdown("[参考 Video...](https://youtu.be/TXSOitGoINE)")
-    
+    )  
     # Lottieアニメーションを表示
     components.html(html_code, height=400)
 
