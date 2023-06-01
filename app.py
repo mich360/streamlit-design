@@ -91,7 +91,7 @@ html_code = f"""
 </script>
 """
 
-components.html(html_code, height=200)
+components.html(html_code, height=400)
 
 
 
