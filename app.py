@@ -44,12 +44,27 @@ with st.container():
             """
         )
         st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
-    with right_column:
-        st.write('右カラム、アニメーションをここに製作中')
+    # with right_column:
+    #     st.write('右カラム、アニメーションをここに製作中')
 import streamlit.components.v1 as components
 
 # LottieファイルのURL
 lottie_url = "https://assets7.lottiefiles.com/packages/lf20_bP3BLu.json"
+##
+with right_column:
+    st.subheader("アニメーションとStreamlitをインテグレーションする")
+    st.write(
+        """
+        StreamlitでLottieファイルを使用する方法を学びましょう！
+        アニメーションはWebアプリをより魅力的で楽しいものにします。
+        Lottie Filesはそれを行う最も簡単な方法です。
+        このチュートリアルでは、その方法を正確に説明しています。
+        """
+    )
+    st.markdown("[参考 Video...](https://youtu.be/TXSOitGoINE)")
+    
+    # Lottieアニメーションを表示
+    components.html(html_code, height=400)
 
 # HTMLコードを生成して表示
 # html_code = f"""
@@ -84,7 +99,7 @@ html_code = f"""
 </script>
 """
 
-components.html(html_code, height=800)
+# components.html(html_code, height=800)
 
 
 
