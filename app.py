@@ -157,4 +157,5 @@ with st.container():
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.empty()
+st.write("##")     
 st.warning("[前のページ >](https://canape2020.stars.ne.jp/python/)")
