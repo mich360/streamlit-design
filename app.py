@@ -116,6 +116,7 @@ with st.container():
             このチュートリアルでは、その方法を正確に説明しています。
             """
         )
+        st.markdown("[Lottieアニメーションの表示手順](https://canape2020.stars.ne.jp/m/Animation2.html)")
         st.markdown("[参考 Video...](https://youtu.be/TXSOitGoINE)")
 
 with st.container():
