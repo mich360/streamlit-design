@@ -72,4 +72,3 @@ with st.container():
         st.image(Image.open("images/mail.jpg"))
     
     with text_column:
-       
